@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://All4Nothing.github.io/sitemap.xml

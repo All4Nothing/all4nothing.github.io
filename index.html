@@ -1,6 +1,231 @@
----
-layout: home
-author_profile: true
-sidebar:
-    nav: "categories"
----
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Yongjoo Kim">
+  <meta name="description" content="Yongjoo Kim — Integrated B.S./M.S. student at Korea University working on vision-language models for video and document understanding.">
+  <title>Yongjoo Kim</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- ===================== HEADER ===================== -->
+    <table class="layout intro">
+      <tbody>
+        <tr>
+          <td class="intro-text">
+            <p class="name">Yongjoo Kim</p>
+            <p>
+              Hello! I am an integrated B.S./M.S. student in Computer Science and Engineering at
+              <a href="https://www.korea.ac.kr/">Korea University</a>, co-advised by
+              <a href="https://visionai.korea.ac.kr/team/">Prof. Jungbeom Lee</a> and
+              <a href="https://visionai.korea.ac.kr/team/">Prof. Jinkyu Kim</a> at the
+              <a href="https://visionai.korea.ac.kr/">Vision &amp; AI Lab</a>.
+              I received my B.E. in Computer Science and Engineering from Korea University in 2026.
+            </p>
+            <p>
+              My research focuses on vision-language models (VLMs) for video and document understanding,
+              including multimodal retrieval and benchmark design. I am also interested in world models,
+              world action models (WAMs), and vision-language-action (VLA) models.
+            </p>
+            <p class="links">
+              <a href="mailto:sd081104@gmail.com">Email</a> &nbsp;/&nbsp;
+              <a href="data/CV_YongjooKim.pdf">CV</a> &nbsp;/&nbsp;
+              <!-- TODO: 본인 링크로 교체 -->
+              <a href="https://scholar.google.com/citations?view_op=list_works&hl=ko&user=Rb5Mo6IAAAAJ&gmla=AERr9JEbsrf46TfA5OyHpP_VbZnqmtW1R2VwW01il6biI6xIy6MvMJn74MFLjj0g5K75O2fF8zNKzWwE3XDu-TrxAHH-NDSbLMRchpEW1ObJKSNaPzSGrQJx6ToK9cxv31UvEn8">Google Scholar</a> &nbsp;/&nbsp;
+              <a href="https://github.com/All4Nothing">GitHub</a> &nbsp;/&nbsp;
+              <a href="https://www.linkedin.com/in/yongjoo-kim/">LinkedIn</a>
+            </p>
+          </td>
+          <td class="profile-cell">
+            <a href="images/profile.jpg"><img class="profile-photo" src="images/profile.jpg" alt="Profile photo of Yongjoo Kim"></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ===================== NEWS ===================== -->
+    <h2>News</h2>
+    <div class="news">
+      <table>
+        <tbody>
+          <tr>
+            <td class="date">Aug. 2026</td>
+            <td>Our paper <a href="#sage">SAGE</a> got accepted to the <strong>EMNLP 2026 Main Conference</strong>. See you in Budapest! 🇭🇺</td>
+          </tr>
+          <tr>
+            <td class="date">Aug. 2026</td>
+            <td>Won the <strong>Excellence Award (5th place)</strong> at the 3rd Wind Power Generation Forecasting AI Competition (BARAM 2026).</td>
+          </tr>
+          <tr>
+            <td class="date">Mar. 2026</td>
+            <td>Started the integrated B.S./M.S. program at <a href="https://visionai.korea.ac.kr/">Vision &amp; AI Lab</a> @ Korea University.</td>
+          </tr>
+          <tr>
+            <td class="date">Dec. 2025</td>
+            <td>Won the <strong>Bronze Prize</strong> at the 2025 Inthon Datathon Track.</td>
+          </tr>
+          <tr>
+            <td class="date">Jun. 2025</td>
+            <td>Joined <strong>Lingora</strong> as an AI Engineer Intern.</td>
+          </tr>
+          <tr>
+            <td class="date">Apr. 2025</td>
+            <td>Joined <a href="https://visionai.korea.ac.kr/">Vision &amp; AI Lab</a> @ Korea University as an Undergraduate Researcher.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- ===================== PUBLICATIONS ===================== -->
+    <h2>Publications</h2>
+    <p class="section-desc">
+      I work on vision-language models for understanding videos and visually rich documents,
+      with a particular interest in multimodal retrieval and in designing benchmarks that expose
+      what current models fail to capture.
+    </p>
+
+    <table class="pub">
+      <tbody>
+        <!-- 대표 논문은 class="highlight"로 노란 배경 강조 -->
+        <tr id="sage" class="highlight">
+          <td class="thumb">
+            <img src="images/sage.png" alt="SAGE overview figure">
+          </td>
+          <td class="desc">
+            <span class="papertitle">SAGE: Semantic Attribute Graphs for Multi-Entity Visual Retrieval</span>
+            <br>
+            <!-- TODO: 공동 1저자에게도 * 표시 -->
+            <strong>Yongjoo Kim</strong>*,
+            Mincheol Kwon,
+            Seonga Choi,
+            Minseung Lee,
+            Kyeong-Jin Oh,
+            Hyunyoung Lee,
+            Yunsu Choi,
+            <a href="https://visionai.korea.ac.kr/team/">Jungbeom Lee</a>
+            <br>
+            <span class="venue">Conference on Empirical Methods in Natural Language Processing (EMNLP), 2026</span>
+            <br>
+            <div class="pub-links">
+              <!-- TODO: 링크가 생기면 교체, 없으면 해당 항목 삭제 -->
+              <a href="#">paper</a> /
+              <a href="#">code</a> /
+              <a href="#">dataset</a>
+            </div>
+            <p class="pub-summary">
+              We introduce MEVICO, a benchmark for visual retrieval over images containing multiple entities,
+              and propose SAGE, a training-free retrieval method that represents each image as a graph of
+              entities and their semantic attributes.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="note">* Equal contribution</p>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <h2>Research Experience</h2>
+    <div class="entries">
+      <div class="entry">
+        <div class="what">
+          <strong>Vision &amp; AI Lab, Korea University</strong> — Graduate Researcher
+          <span class="sub">Advisors: Prof. Jungbeom Lee &amp; Prof. Jinkyu Kim</span>
+          <ul>
+            <li>Vision-language models for video and document understanding</li>
+            <li>World models and world action models for robot control</li>
+          </ul>
+        </div>
+        <div class="when">Mar. 2026 – Present</div>
+      </div>
+      <div class="entry">
+        <div class="what">
+          <strong>Vision &amp; AI Lab, Korea University</strong> — Undergraduate Researcher
+          <span class="sub">Advisors: Prof. Jungbeom Lee &amp; Prof. Jinkyu Kim</span>
+          <ul>
+            <li>Vision-language models and multimodal retrieval-augmented generation</li>
+          </ul>
+        </div>
+        <div class="when">Apr. 2025 – Feb. 2026</div>
+      </div>
+      <div class="entry">
+        <div class="what">
+          <strong>Lingora</strong> — AI Engineer Intern
+          <ul>
+            <li>LLM-based components for an AI language learning platform</li>
+          </ul>
+        </div>
+        <div class="when">Jun. 2025 – Aug. 2025</div>
+      </div>
+    </div>
+
+    <!-- ===================== AWARDS ===================== -->
+    <h2>Awards &amp; Honors</h2>
+    <div class="entries">
+      <div class="entry">
+        <div class="what">
+          <strong>Excellence Award (5th place)</strong>, 3rd Wind Power Generation Forecasting AI Competition (BARAM 2026)
+          <span class="sub">Korea East-West Power, GS E&amp;R, Taebaek Gadeoksan Wind Power · 2,177 participants / 985 teams</span>
+        </div>
+        <div class="when">Aug. 2026</div>
+      </div>
+      <div class="entry">
+        <div class="what">
+          <strong>Bronze Prize</strong>, 2025 Inthon Datathon Track
+          <span class="sub">52 participants / 14 teams</span>
+        </div>
+        <div class="when">Dec. 2025</div>
+      </div>
+      <div class="entry">
+        <div class="what">
+          <strong>6th place</strong>, 2024 Samsung AI Challenge: Black-box Optimization
+          <span class="sub">980 participants / 421 teams</span>
+        </div>
+        <div class="when">Sep. 2024</div>
+      </div>
+      <div class="entry">
+        <div class="what">
+          <strong>11th place</strong>, Microsoft Rice Disease Classification Challenge
+          <span class="sub">901 participants / 206 teams</span>
+        </div>
+        <div class="when">Aug. 2022</div>
+      </div>
+    </div>
+
+    <!-- ===================== EDUCATION ===================== -->
+    <h2>Education</h2>
+    <div class="entries">
+      <div class="entry">
+        <div class="what">
+          <strong>Korea University</strong> — Integrated B.S./M.S. in Computer Science and Engineering
+          <span class="sub">Major: Artificial Intelligence Applications · Advisors: Prof. Jungbeom Lee &amp; Prof. Jinkyu Kim</span>
+        </div>
+        <div class="when">Mar. 2026 – Present</div>
+      </div>
+      <div class="entry">
+        <div class="what">
+          <strong>Korea University</strong> — B.E. in Computer Science and Engineering
+          <span class="sub">GPA: 4.04 / 4.50</span>
+        </div>
+        <div class="when">Mar. 2021 – Feb. 2026</div>
+      </div>
+    </div>
+
+    <!-- ===================== FOOTER ===================== -->
+    <p class="footer">
+      Last updated: Oct. 2026 &nbsp;·&nbsp; Website template from <a href="https://github.com/jonbarron/website">Jon Barron</a>.
+    </p>
+
+  </div>
+</body>
+
+</html>
